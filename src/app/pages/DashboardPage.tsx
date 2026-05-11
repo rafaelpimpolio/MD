@@ -231,10 +231,10 @@ export function DashboardPage() {
                         report.status === "Submitted"
                           ? "info"
                           : report.status === "Reviewed"
-                          ? "success"
-                          : report.status === "Pending"
-                          ? "warning"
-                          : "danger"
+                            ? "success"
+                            : report.status === "Pending"
+                              ? "warning"
+                              : "danger"
                       }
                     />
                   </div>
